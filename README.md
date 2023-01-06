@@ -1,1 +1,1 @@
-# fm-nft-card-preview
+# frontend-mentor-nft-preview-card
