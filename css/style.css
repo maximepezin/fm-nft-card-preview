@@ -31,13 +31,13 @@ body {
   margin: 0;
 
   font-family: var(--ff-base);
-  font-size: 1.125rem;
+  font-size: var(--fs-base);
   font-weight: var(--fw-regular);
   -webkit-font-smoothing: antialiased;
 
   background-color: var(--clr-neutral-900);
   color: var(--clr-primary);
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 main {
@@ -73,8 +73,8 @@ main {
 .nft-card {
   --card-radius: 10px;
 
-  --card-padding: 1.4rem;
-  --card-gap: 1.25rem;
+  --card-padding: 1.25rem;
+  --card-gap: 1.2rem;
 
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@ main {
 }
 
 .nft-card__price {
-  font-weight: var(--fw-regular);
+  font-weight: var(--fw-bold);
   letter-spacing: .5px;
 
   color: var(--clr-secondary);
@@ -186,8 +186,7 @@ main {
   background: url('../images/icon-ethereum.svg') no-repeat center/cover;
 }
 
-.nft-card__description,
-.nft-card__time-left {
+.nft-card__description {
   font-weight: var(--fw-thin);
 }
 
@@ -204,8 +203,6 @@ main {
 
   justify-content: flex-start;
   column-gap: var(--card-gap);
-
-  font-weight: var(--fw-thin);
 }
 
 .nft-card__creator-avatar {
